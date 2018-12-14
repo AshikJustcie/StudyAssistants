@@ -89,6 +89,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="15dp"
                 android:background="@drawable/image_corner"
+                android:onClick="Login_Home"
                 android:text="Login"
                 android:textColor="@android:color/white" />
 

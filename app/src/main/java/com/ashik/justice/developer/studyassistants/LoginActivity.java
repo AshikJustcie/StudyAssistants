@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -15,5 +16,9 @@ public class LoginActivity extends AppCompatActivity {
 
     public void GoToSignUp(View view) {
         startActivity( new Intent( LoginActivity.this, SignUp1_Activity.class ) );
+    }
+
+    public void Login_Home(View view) {
+        startActivity( new Intent( LoginActivity.this, MainActivity.class ) );
     }
 }

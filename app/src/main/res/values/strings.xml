@@ -135,4 +135,6 @@
         <item>Barisal Engineering College</item>
 
     </string>
+    <string name="navigation_drawer_open">NavDrawer_Open</string>
+    <string name="navigation_drawer_close">NavDrawer_Close</string>
 </resources>
